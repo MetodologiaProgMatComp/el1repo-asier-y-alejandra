@@ -1,6 +1,6 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases;
 
-public class Circle1Test {
+public class TestCircle1 {
     /**
      * A Test Driver for the Circle class
      */
