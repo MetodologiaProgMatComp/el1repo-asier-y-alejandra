@@ -8,7 +8,7 @@ class TimeTest {
 
     @Test
     void getHour() {
-        Time time = new Time( 13, 40, 16);
+        Time time = new Time(13, 40, 16);
         assertEquals(13, time.getHour());
     }
 
@@ -20,7 +20,7 @@ class TimeTest {
 
     @Test
     void getSecond() {
-        Time time = new Time(13, 40,16);
+        Time time = new Time(13, 40, 16);
         assertEquals(16, time.getSecond());
     }
 
@@ -56,7 +56,7 @@ class TimeTest {
 
     @Test
     void testToString() {
-        Time time = new Time (9, 7, 27);
+        Time time = new Time(9, 7, 27);
         assertEquals("09:07:27", time.toString());
     }
 
@@ -71,7 +71,7 @@ class TimeTest {
 
     @Test
     void previousSecond() {
-        Time time = new Time(0,0,0);
+        Time time = new Time(0, 0, 0);
         time.previousSecond();
         assertEquals(23, time.getHour());
         assertEquals(59, time.getMinute());
