@@ -51,7 +51,7 @@ class TimeTest {
         time.setTime(11, 45, 17);
         assertEquals(11, time.getHour());
         assertEquals(45, time.getMinute());
-        assertEquals(16, time.getSecond());
+        assertEquals(17, time.getSecond());
     }
 
     @Test
