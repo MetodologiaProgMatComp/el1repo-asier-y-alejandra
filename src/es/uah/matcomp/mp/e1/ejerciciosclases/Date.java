@@ -49,7 +49,7 @@ public class Date {
             dayString = "" + day;
         }
         String monthString;
-        if (day < 10) {
+        if (month < 10) {
             monthString = "0" + month;
         } else {
             monthString = "" + month;
