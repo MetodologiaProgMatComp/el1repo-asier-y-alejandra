@@ -35,6 +35,13 @@ public class Time {
         this.second = second;
     }
 
+    public void setTime(int hour, int minute, int second) {
+        this.hour = hour;
+        this.minute = minute;
+        this.second = second;
+    }
+
+
     public String toString() {
         String secondString;
         if (second < 10) {
@@ -53,38 +60,40 @@ public class Time {
             hourString = "0" + hour;
         } else {
             hourString = "" + hour;
-
-            return hourString + ":" + minuteString + ":" + second;
         }
 
-        public Time nextSecond() {
-            second++;
-            if (second == 60) {
-                second = 0;
-                minute++;
-                if (minute == 60) {
-                    minute = 0;
-                    hour++;
-                    if (hour == 24) {
-                        hour = 0;
-                    }
+        return hourString + ":" + minuteString + ":" + secondString;
+    }
+
+    public Time nextSecond() {
+        second++;
+        if (second == 60) {
+            second = 0;
+            minute++;
+            if (minute == 60) {
+                minute = 0;
+                hour++;
+                if (hour == 24) {
+                    hour = 0;
                 }
             }
         }
+        return this;
+    }
 
-        public Time previousSecond() {
-            second--;
-            if (second == -1) {
-                second = 59;
-                minute--;
-                if (minute == -1) {
-                    minute = 59;
-                    hour--;
-                    if (hour == -1) {
-                        hour = 23;
-                    }
+    public Time previousSecond() {
+        second--;
+        if (second == -1) {
+            second = 59;
+            minute--;
+            if (minute == -1) {
+                minute = 59;
+                hour--;
+                if (hour == -1) {
+                    hour = 23;
                 }
             }
         }
+        return this;
     }
 }
