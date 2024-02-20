@@ -38,7 +38,6 @@ public class Time {
     public void setTime(int hour, int minute, int second) {
         this.hour = hour;
         this.minute = minute;
-        this.second = second;
     }
 
 
