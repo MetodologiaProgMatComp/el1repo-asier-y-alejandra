@@ -72,7 +72,7 @@ public class Book1 {
     //MODIFICACIONES
 
 
-    //APARTADO 2
+    ///APARTADO 2
 
     //Nuevo método para obtener el nombre del autor
     public String getAuthor1Name() {
