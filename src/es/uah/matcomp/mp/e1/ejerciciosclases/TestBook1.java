@@ -2,6 +2,7 @@ package es.uah.matcomp.mp.e1.ejerciciosclases;
 
 public class TestBook1 {
     public static void main(String[]args) {
+        /*
         // Construct an author instance
         Author1 ahTeck = new Author1("Tan Ah Teck", "ahteck@nowhere.com", 'm');
         System.out.println(ahTeck); // Author's toString()
@@ -33,7 +34,19 @@ public class TestBook1 {
                 new Author1("Manolo Gomez", "manolo@somewhere.com", 'm'), 35.52);
         System.out.println(anotherBook); // toString()
         System.out.println("Author's name is: " + book2.getAuthor().getName()); //Accedemos a la información de book2 a través del comando book2.get...
-        System.out.println("Author's email is: " + book2.getAuthor().getEmail());
+        System.out.println("Author's email is: " + book2.getAuthor().getEmail()); */
+
+        //ULTIMO EJERCICIO (2.2)
+
+        // Declare and allocate an array of Authors
+        Author1[] authors = new Author1[2];
+        authors[0] = new Author1("Tan Ah Teck", "AhTeck@somewhere.com", 'm');
+        authors[1] = new Author1("Paul Tan", "Paul@nowhere.com", 'm');
+        // Declare and allocate a Book instance
+        Book1 javaDummy = new Book1("Java for Dummy", authors, 19.99, 99);
+        System.out.println(javaDummy); // toString()
+
+
 
     }
 }
