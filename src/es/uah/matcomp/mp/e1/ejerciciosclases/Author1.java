@@ -31,7 +31,7 @@ public class Author1 {
         return gender;
     }
     public String toString() {
-        return "Author [name=" + name + ", email=" + email + ",gender=" + gender + "]";
+        return "Author [name=" + name + ", email=" + email + ", gender=" + gender + "]";
     }
 }
 

@@ -39,7 +39,7 @@ public class Book1 {
     public String toString() {
         String authorNames = "";
         for (Author1 author : author1s){
-            authorNames += author.getName() + ", ";
+            authorNames += author.getName() + ",";
         }
         return "Book[name=" + name + ",authors={" + authorNames +"},price=" + price + ",qty=" + qty + "]";
     }
