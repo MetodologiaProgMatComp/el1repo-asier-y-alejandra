@@ -1,12 +1,12 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno2test;
 
-import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno2ejs.Customer;
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno2ejs.Customer1;
 import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno2ejs.Invoice;
 
 public class TestCustomerInvoice {
         public static void main(String[] args) {
             // Test Customer class
-            Customer c1 = new Customer(88, "Tan Ah Teck", 10);
+            Customer1 c1 = new Customer1(88, "Tan Ah Teck", 10);
             System.out.println(c1); // Customer's toString()
             c1.setDiscount(8);
             System.out.println(c1);

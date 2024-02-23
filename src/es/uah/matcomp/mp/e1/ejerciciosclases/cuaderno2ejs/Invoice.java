@@ -1,13 +1,11 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno2ejs;
 
-import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno2ejs.Customer;
-
 public class Invoice {
     private int id;
-    private Customer customer;
+    private Customer1 customer;
     private double amount;
 
-    public Invoice(int id, Customer customer, double amount) {
+    public Invoice(int id, Customer1 customer, double amount) {
         this.id = id;
         this.customer = customer;
         this.amount = amount;
@@ -15,10 +13,10 @@ public class Invoice {
     public int getId() {
         return id;
     }
-    public Customer getCustomer() {
+    public Customer1 getCustomer() {
         return customer;
     }
-    public void setCustomer (Customer customer) {
+    public void setCustomer (Customer1 customer) {
         this.customer = customer;
     }
 

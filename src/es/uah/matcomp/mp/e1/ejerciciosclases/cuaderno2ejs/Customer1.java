@@ -1,10 +1,10 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno2ejs;
 
-public class Customer {
+public class Customer1 {
     private int id;
     private String name;
     private int discount;
-    public Customer(int id, String name, int discount) {
+    public Customer1(int id, String name, int discount) {
         this.id = id;
         this.name = name;
         this.discount = discount;
