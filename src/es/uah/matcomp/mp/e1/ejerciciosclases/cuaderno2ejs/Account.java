@@ -10,13 +10,16 @@ public class Account {
         this.customer = customer;
         this.balance = balance;
     }
+
     public Account(int id, Customer2 customer) {
         this.id = id;
         this.customer = customer;
     }
+
     public int getId() {
         return id;
     }
+
     public Customer2 getCustomer() {
         return customer;
     }
@@ -28,19 +31,24 @@ public class Account {
     public void setBalance(double balance) {
         this.balance = balance;
     }
+
     public String toString() {
         return getCustomerName() + " (" + getId() + ") balance=$" + roundToTwoDecimalPlaces(getBalance());
     }
+
     private double roundToTwoDecimalPlaces(double value) { //funcion auxiliar para redondear a dos decimales
-        return Math.round(value*100) / 100.0;
+        return Math.round(value * 100) / 100.0;
     }
+
     public String getCustomerName() {
         return customer.getName();
     }
+
     public Account deposit(double amount) {
         balance += amount; // add amount to balance
         return this;
     }
+
     public Account withdraw(double amount) {
         if (balance >= amount) {
             balance -= amount; // subtract amount to balance

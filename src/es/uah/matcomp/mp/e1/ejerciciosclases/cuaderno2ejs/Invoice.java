@@ -10,13 +10,16 @@ public class Invoice {
         this.customer = customer;
         this.amount = amount;
     }
+
     public int getId() {
         return id;
     }
+
     public Customer1 getCustomer() {
         return customer;
     }
-    public void setCustomer (Customer1 customer) {
+
+    public void setCustomer(Customer1 customer) {
         this.customer = customer;
     }
 
@@ -27,19 +30,23 @@ public class Invoice {
     public void setAmount(double amount) {
         this.amount = amount;
     }
+
     public int getCustomerId() {
         return customer.getId();
     }
+
     public String getCustomerName() {
         return customer.getName();
     }
+
     public int getCustomerDiscount() {
         return customer.getDiscount();
     }
 
     public double getAmountAfterDiscount() {
-        return amount - (amount*this.customer.getDiscount() /100.0); //viajo a la otra clase para acceder al descuento
+        return amount - (amount * this.customer.getDiscount() / 100.0); //viajo a la otra clase para acceder al descuento
     }
+
     public String toString() {
         return "Invoice[id=" + id + ",customer=" + customer.toString() + ",amount=" + amount + "]";
     }
