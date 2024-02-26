@@ -1,5 +1,7 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno2ejs;
+package es.uah.matcomp.mp.e1.ejerciciosclases.testcuaderno2;
 
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno2ejs.MyLine;
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno2ejs.MyPoint;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
