@@ -25,6 +25,7 @@ public class MyTriangle {
         return v1.distance(v2) + v2.distance(v3) + v3.distance(v1); //utilizo la distancia de MyPoint() para calcular el perimetro
     }
 
+
     public String getType() {
         double lado1 = v1.distance(v2); //defino el tipo de lado y lo que representa
         double lado2 = v2.distance(v3);

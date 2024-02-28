@@ -44,18 +44,21 @@ class MyTriangleTest {
     @Test
     void getV1() {
         MyTriangle triangle = new MyTriangle(1,2,3,4,5,6);
-        assertEquals(new MyPoint(1,2), triangle.getV1());
+        assertEquals((new MyPoint(1,2)).getX(), triangle.getV1().getX());
+        assertEquals((new MyPoint(1,2)).getY(), triangle.getV1().getY());
     }
 
     @Test
     void getV2() {
         MyTriangle triangle = new MyTriangle(1,2,3,4,5,6);
-        assertEquals(new MyPoint(3,4), triangle.getV2());
+        assertEquals((new MyPoint(3,4)).getX(), triangle.getV2().getX());
+        assertEquals((new MyPoint(3,4)).getY(), triangle.getV2().getY());
     }
 
     @Test
     void getV3() {
         MyTriangle triangle = new MyTriangle(1,2,3,4,5,6);
-        assertEquals(new MyPoint(5,6), triangle.getV3());
+        assertEquals((new MyPoint(5,6)).getX(), triangle.getV3().getX());
+        assertEquals((new MyPoint(5,6)).getY(), triangle.getV3().getY());
     }
 }
