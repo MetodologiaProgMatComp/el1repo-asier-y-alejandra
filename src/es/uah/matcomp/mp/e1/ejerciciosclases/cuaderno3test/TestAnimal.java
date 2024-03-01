@@ -1,10 +1,10 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3test;
 
 
-import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.Animal;
-import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.Cat;
-import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.Dog;
-import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.Mammal;
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia.Animal;
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia.Cat;
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia.Dog;
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia.Mammal;
 
 public class TestAnimal {
     public static void main(String[] args){

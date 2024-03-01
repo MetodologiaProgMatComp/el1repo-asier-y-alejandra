@@ -1,4 +1,6 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs;
+package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia;
+
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia.Person;
 
 public class Staff extends Person {
     private String school;

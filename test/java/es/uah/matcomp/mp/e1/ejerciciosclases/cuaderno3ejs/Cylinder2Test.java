@@ -1,5 +1,6 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs;
 
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia.Cylinder2;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,6 +1,9 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs;
+package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia;
 
-public class Square extends Rectangle{
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia.Rectangle;
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.polimorfismo.Rectangle2;
+
+public class Square extends Rectangle2 {
     public Square(){
         super();
     }

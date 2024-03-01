@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs;
+package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia;
 
 public class Cylinder2 {
     private Circle base; // Base circle, an instance of Circle class

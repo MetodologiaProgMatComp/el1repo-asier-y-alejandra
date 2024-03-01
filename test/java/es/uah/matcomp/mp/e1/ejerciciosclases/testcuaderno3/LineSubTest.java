@@ -1,8 +1,7 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases.testcuaderno3;
 
-import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.Line;
-import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.LineSub;
-import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.Point; //agrego esta linea para que la ubicacion de los paquetes y directorios sea correcta
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia.LineSub;
+import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia.Point; //agrego esta linea para que la ubicacion de los paquetes y directorios sea correcta
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

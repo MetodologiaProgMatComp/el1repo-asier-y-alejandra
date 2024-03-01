@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs;
+package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia;
 
 public class Line {
     // A line composes of two points (as instance variables)

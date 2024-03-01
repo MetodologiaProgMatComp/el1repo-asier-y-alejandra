@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs;
+package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia;
 
 public class Point3D extends Point2D {
     private float z;
