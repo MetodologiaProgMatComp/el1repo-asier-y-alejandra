@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs;
+package es.uah.matcomp.mp.e1.ejerciciosclases.testcuaderno3;
 
 import es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.herencia.Cylinder2;
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,6 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases.cuaderno3ejs.polimorfismo;
 
-public class Shape2 {
+public abstract class Shape2 {
     protected String color;
     protected boolean filled;
 
@@ -32,7 +32,6 @@ public class Shape2 {
 
     public abstract double getArea();
     public abstract double getPerimeter();
-
 
     @Override
     public String toString() {
